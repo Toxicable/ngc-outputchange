@@ -1,0 +1,28 @@
+{
+  "name": "ngc-outputchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "tsc": "npm run clean && tsc -p modules/module-name/tsconfig.json",
+    "ngc": "npm run clean && ngc -p modules/module-name/tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toxicable/ngc-outputchange.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toxicable/ngc-outputchange/issues"
+  },
+  "homepage": "https://github.com/Toxicable/ngc-outputchange#readme",
+  "dependencies": {
+    "@angular/compiler": "5.0.0-beta.7",
+    "@angular/compiler-cli": "5.0.0-beta.7",
+    "@angular/core": "5.0.0-beta.7",
+    "rxjs": "^5.4.3",
+    "typescript": "~2.4.0"
+  }
+}
